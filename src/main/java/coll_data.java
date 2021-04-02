@@ -17,17 +17,10 @@ public class coll_data extends TelegramLongPollingBot {
             } catch (TelegramApiException e) {
                 e.printStackTrace();
             }
-
-            /*
-            try {
-                execute(message); // Call method to send the message
-            } catch (TelegramApiException e) {
-                e.printStackTrace();
-            }
-            */
-
         }
     }
+
+
 
     @Override
     public String getBotUsername() {
